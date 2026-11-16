@@ -1,6 +1,6 @@
 ﻿Projeto-Integrado<br>
 <br>
-#Hora da Ação!<br>
+Hora da Ação!<br>
 Projeto Integrado - Grupo Phoenix DEV
 
 INTEGRANTES

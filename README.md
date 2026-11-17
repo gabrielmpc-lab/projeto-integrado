@@ -11,4 +11,9 @@
 # **ESCOPO**
 ## [Projeto](https://docs.google.com/document/d/1HNGfTpRYYqhmliKOOpthIWnQM_46Lu-SLQdxniCVTw0/edit?tab=t.0)
   
-
+# **MATERIAIS REALIZADOS:**
+# LOPAL
+# LER
+# ARI
+# SOP
+# LIMA

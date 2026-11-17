@@ -1,7 +1,7 @@
-﻿# **Projeto-Integrado**<br>
+﻿# **Grupo - Phoenix DEV**
 
 **Hora da Ação!**<br>
-**Projeto Integrado - Grupo Phoenix DEV**
+**Projeto Integrado **
 
 # **INTEGRANTES:**
 ## [Isabela Nogueira](https://github.com/isabella2620)<br>

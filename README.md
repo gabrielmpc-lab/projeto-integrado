@@ -1,4 +1,4 @@
-﻿# **Grupo Phoenix DEV**
+# **Grupo Phoenix DEV**
 
 ## Projeto Integrado <br> Hora da Ação!
 
@@ -16,7 +16,7 @@
 
 - ## [Escopo do Projeto](https://docs.google.com/document/d/1HNGfTpRYYqhmliKOOpthIWnQM_46Lu-SLQdxniCVTw0/edit?tab=t.0)
 - ## [Detalhamento do Projeto](https://docs.google.com/document/d/19rER9C9J4B-nWiHSsb_wBySPhuPjSt_xBUvMN-2w_FA/edit?tab=t.0)
-- ## [Regra de Negócio]([VEST_RN.pdf)
+- ## [Regra de Negócio](https://github.com/user-attachments/files/35050492/VEST_RN.pdf)
 - ## [Requisitos Não Funcionais]([VEST_RNF.pdf)
 - ## [Requisitos Funcionais]([VEST_RF.pdf)
 

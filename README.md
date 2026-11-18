@@ -8,7 +8,7 @@
 ## [André Bispo](https://github.com/Bispokkjsz)<br>
 ## [Gabriel Moreira](https://github.com/gabrielmpc-lab)
 
-# **MATERIAIS REALIZADOS**
+# **ETAPAS CONCLUÍDAS**
 
 # *LOPAL:*
 

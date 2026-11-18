@@ -8,14 +8,16 @@
 ## [André Bispo](https://github.com/Bispokkjsz)<br>
 ## [Gabriel Moreira](https://github.com/gabrielmpc-lab)
 
-# **MATERIAIS REALIZADOS:**
+# **MATERIAIS REALIZADOS**
 
-# *LOPAL*
-# *LER* <br> 
+# *LOPAL:*
+
+# *LER:* <br> 
 
 ## [escopo do projeto](https://docs.google.com/document/d/1HNGfTpRYYqhmliKOOpthIWnQM_46Lu-SLQdxniCVTw0/edit?tab=t.0) <br> [detalhamento do projeto](https://docs.google.com/document/d/19rER9C9J4B-nWiHSsb_wBySPhuPjSt_xBUvMN-2w_FA/edit?tab=t.0)
 
-# *ARI*
+# *ARI:*
 
-# *SOP*
-# *LIMA*
+# *SOP:*
+
+# *LIMA:*

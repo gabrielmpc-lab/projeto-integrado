@@ -19,6 +19,7 @@
 - ## [Regra de Negócio](https://github.com/user-attachments/files/35050492/VEST_RN.pdf)
 - ## [Requisitos Não Funcionais](https://github.com/user-attachments/files/35050616/VEST_RNF.pdf)
 - ## [Requisitos Funcionais](https://github.com/user-attachments/files/35050632/VEST_RF.pdf)
+- ## [Landing pages - Wireframe](https://github.com/user-attachments/files/35107167/Landing.pages.-.Wireframe.pdf)
 
 
 # *ARI:*

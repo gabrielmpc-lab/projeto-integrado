@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    position: relative;
+    width: fit-content;
+    right: 4vw;
+    color: white;
+}
+
+.menu summary {
+    list-style: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.menu summary::-webkit-details-marker {
+    display: none;
+}
+
+.menu-opcoes {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 150px;
+    background: white;
+    box-shadow: 0 4px 10px #0002;
+    border-radius: 8px;
+    z-index: 10;
+}
+
+.menu-opcoes a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+    width: 100%;
+    position: fixed;
+}
+.nome{
+    position: relative;
+    left: 5vw;
+    color: white;
+}
+
+.iniiio{
+    position: relative;
+    height: 40vh;
+    width: 100%;
+}
+.imagem1{
+    margin-top: 8vh;
+    height: 100%;
+    width: 100%;
+}
+
+.text1{
+    background-color: blue;
+    color: red;
+    display: flex;
+    flex-direction: column;
+}
+.texto1{
+    position: absolute;
+    top: 14.5vh;
+    left: 6vw;
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+.acessar_vest{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E6C5AA;
+    position: absolute;
+    top: 37vh;
+    left: 6vw;
+    border-radius: 20px;
+    height: 6vh;
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

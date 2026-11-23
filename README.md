@@ -30,3 +30,4 @@
 
 # *LIMA:*
 
+- ## [Landing Page](https://www.figma.com/design/CxR5RfxuQQhKyliPZECAvf/Projeto-Integrado?node-id=0-1&p=f&t=H5a58v1SBmubwNA7-0)

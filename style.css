@@ -46,13 +46,14 @@ a{
 }
 
 .menu-opcoes a {
+    background-color: lightgray;
     display: block;
     padding: 12px;
     text-decoration: none;
     color: black;
 }
 
-.cabecalho{
+.cabecalho {
     background-color: black;
     display: flex;
     flex-direction: row;
@@ -61,6 +62,9 @@ a{
     height: 8vh;
     width: 100%;
     position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 .nome{
     position: relative;
@@ -109,4 +113,162 @@ a{
     width: 45%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+}
+
+.servicos{
+    margin-top: 54px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    height: 18vh;
+    min-height: 18vh;
+    flex-shrink: 0;
+    font-weight: bold;
+}
+.entrega{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 16px;
+    width: 29vw;
+}
+.caminhao{
+
+}
+.qualidade{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 29vw;
+    gap: 5px;
+}
+.escudo{
+
+}
+.text{
+    text-align: center;
+    font-size: 14px;
+}
+.compra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    width: 29vw;
+}
+.cartao{
+    margin-top: 10px;
+}
+.textt{
+    text-align: center;
+    font-size: 15px;
+}
+
+.sobre_nos{
+    font-size: 18px;
+    text-indent: 35px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sobrea{
+    position: relative;
+    right: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+
+}
+.sobrea::before{
+    position: relative;
+    left: 28px;
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 2px;
+    background-color: #E6C5AA;
+}
+
+.imagem2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+}
+.camisetas{
+    height: 25vh;
+    width: 75vw;
+}
+
+.pe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.acessar_sistema{
+    margin-top: 12px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    height: 8vh;
+    width: 75%;
+    border-radius: 25px;
+}
+.acessar{
+    position: relative;
+    right: 17px;
+    font-size: 16px;
+    width: 55vw;
+}
+.pc{
+    position: relative;
+    left: 9px;
+}
+
+.rodape{
+    border-top: 2px solid #E6C5AA;
+    height: 25vh;
+    min-height: 25vh;
+    flex-shrink: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    gap: 5vh;
+}
+.text_final{
+    display: flex;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.fim{
+    display: flex;
+    gap: 12px;
+}
+.insta{
+    height: 25px;
+}
+.in{
+    height: 27px;
+}
+.twit{
+    height: 25px;
 }

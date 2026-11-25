@@ -18,6 +18,7 @@ a{
 }
 
 .menu {
+    display: block;
     position: relative;
     width: fit-content;
     right: 4vw;
@@ -271,4 +272,119 @@ a{
 }
 .twit{
     height: 25px;
+}
+
+.imagem2{
+    display: none;
+}
+.menuu{
+    display: none;
+}
+.texto2{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .menu{
+        display: none;
+    }
+    .menuu{
+        display: flex;
+        flex-direction: row;
+        gap: 35px;
+        position: relative;
+        right: 12vw;
+        top: 1vh;
+    }
+    .menuu a {
+        position: relative;
+        color: white;
+        text-decoration: none;
+        padding-bottom: 8px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .menuu a::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background-color: #E6C5AA;
+        transition: width 0.3s ease;
+    }
+
+    /*quando a essão é selecionada*/
+    body:has(#inicio:target) .menuu a[href="#inicio"]::after,
+    body:has(#sobre:target) .menuu a[href="#sobre"]::after,
+    body:has(#serviços:target) .menuu a[href="#serviços"]::after,
+    body:has(#contato:target) .meunuu a[href="#contato"]::after {
+        width: 100%;
+    }
+
+    .cabecalho{
+        height: 10vh;
+    }
+    .nome{
+        font-size: 55px;
+    }
+    
+    .imagem1{
+        display: none;
+    }
+    .imagem2{
+        display: flex;
+        margin-top: 10vh;
+        height: 100%;
+        width: 100%;
+    }
+
+    .iniiio{
+        height: 45vh;
+    }
+
+    .texto1{
+        font-size: 55px;
+        top: 12vh;
+        left: 8vw;
+    }
+    .texto2{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 33vh;
+        left: 8.5vw;
+        color: white;
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .acessar_vest{
+        position: absolute;
+        top: 43vh;
+        left: 8vw;
+        width: 35%;
+        border-radius: 30px;
+        font-size: 22.5px;
+    }
+    .acessar_texto{
+        position: relative;
+        left: 2.5vw;
+    }
+    .seta{
+        position: relative;
+        left: 1vw;
+        top: 0.4vh;
+        width: 80px;
+    }
+
+    .servicos{
+        margin-top: 10vh;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
 }

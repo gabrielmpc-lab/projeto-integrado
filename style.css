@@ -133,6 +133,9 @@ a{
     align-items: center;
     justify-content: space-evenly;
 }
+.serviços-header span{
+    display: none;
+}
 .entrega{
     gap: 15px;
     line-height: 0.1;
@@ -305,7 +308,7 @@ a{
         .texto-header-mbl{
             margin-left: 10px;
             margin-bottom: 17vh;
-            font-size: 32px;
+            font-size: 30px;
         }
         .texto-header-ipad{
             margin-left: 6px;
@@ -323,10 +326,88 @@ a{
             margin-top: 8vh;
         }
         .header-conheca{
-            margin-bottom: 20px;
+            position: relative;
+            left: 0vw;
+            bottom: 7vh;
+            width: 40vw;
+            height: 5.5vh;
+            border-radius: 30px;
+            font-size: 25px;
+            justify-content: space-evenly;
+        }
+        .seta-header{
+            position: relative;
+            left: 1vw;
+            width: 80px;
         }
 
         .serviços-header{
             margin-top: 0;
+        }
+
+        .entrega{
+            gap: 20px;
+        }
+        .serviços-header span{
+            display: flex;
+        }
+        .texto-entrega-ipad{
+            font-size: 20px;
+            font-weight: normal;
+            text-align: center;
+            width: 26vw;
+            line-height: 20px;
+        }
+        .entrega-local-ipad{
+            font-size: 20px;
+        }
+
+        .entregat{
+            display: none;
+        }
+        .local{
+            display: none;
+        }
+
+        .qualidade{
+            gap: 20px;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+            width: 32vw;
+        }
+        .qualidadet{
+            display: none;
+        }
+        .garantida{
+            display: none;
+        }
+        .qualidade-garantida-ipad{
+            font-size: 20px;
+        }
+        .texto-qualidade-ipad{
+            text-align: center;
+            font-size: 20px;
+            font-weight: normal;
+            line-height: 20px;
+            width: 30vw;
+        }
+
+        .compra{
+            gap: 25px;
+        }
+        .comprat{
+            display: none;
+        }
+        .segura{
+            display: none;
+        }
+        .compra-segura-ipad{
+            font-size: 20px;
+        }
+        .texto-compra-ipad{
+            text-align: center;
+            line-height: 16px;
+            font-size: 20px;
+            font-weight: normal;
         }
 }

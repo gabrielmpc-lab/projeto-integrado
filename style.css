@@ -83,6 +83,9 @@ a{
     justify-content: center;
     align-items: center;
 }
+.texto-header-ipad{
+    display: none;
+}
 .header-img-mbl{
     width: 100%;
     position: relative;
@@ -223,18 +226,25 @@ a{
 .rodape{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 30px;
     background-color: black;
     color: white;
-    gap: 10px;
+    gap: 5vh;
 }
+.vest-rodape{
+    margin-top: 20px;
+    font-size: 50px;
+}
+
 .redes-de-contato{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 2vh;
+    gap: 3vw;
 }
 .insta{
     width: 5vh;
@@ -244,4 +254,79 @@ a{
 }
 .twit{
     width: 5vh;
+}
+
+.imagem-header-ipad{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+        .menu{
+            display: none;
+        }
+
+        .menuu{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 30px;
+            margin-right: 8vw;
+        }
+        .menuu a{
+            position: relative;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .menuu a::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -6px;
+            width: 0;
+            height: 2px;
+            background-color: #E6C5AA;
+            transition: width 0.3s ease;
+        }
+
+        .menuu a:hover::after,
+        body:has(#inicio:target) .menuu a[href="#inicio"]::after,
+        body:has(#sobre:target) .menuu a[href="#sobre"]::after,
+        body:has(#serviços:target) .menuu a[href="#serviços"]::after,
+        body:has(#contato:target) .menuu a[href="#contato"]::after {
+            width: 100%;
+        }
+
+        .nome{
+            font-size: 50px;
+        }
+
+        .texto-header-mbl{
+            margin-left: 10px;
+            margin-bottom: 17vh;
+            font-size: 32px;
+        }
+        .texto-header-ipad{
+            margin-left: 6px;
+            margin-top: 30px;
+            display: flex;
+            width: 60vw;
+            font-weight: normal;
+        }
+        .header-img-mbl{
+            display: none;
+        }
+        .imagem-header-ipad{
+            display: flex;
+            width: 100%;
+            margin-top: 8vh;
+        }
+        .header-conheca{
+            margin-bottom: 20px;
+        }
+
+        .serviços-header{
+            margin-top: 0;
+        }
 }

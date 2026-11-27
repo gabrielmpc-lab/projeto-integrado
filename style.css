@@ -54,416 +54,65 @@ a{
     color: black;
 }
 
-.cabecalho {
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: 8vh;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-}
-.nome{
-    position: relative;
-    left: 5vw;
-    color: white;
-}
-
-.iniiio{
-    position: relative;
-    height: 40vh;
-    width: 100%;
-}
-.imagem1{
-    margin-top: 8vh;
-    height: 100%;
-    width: 100%;
-}
-
-.text1{
-    background-color: blue;
-    color: red;
-    display: flex;
-    flex-direction: column;
-}
-.texto1{
-    position: absolute;
-    top: 14.5vh;
-    left: 6vw;
-    height: 22vh;
-    display: flex;
-    flex-direction: column;
-    font-size: 35px;
-    font-weight: bold;
-    color: white;
-}
-.acessar_vest{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #E6C5AA;
-    position: absolute;
-    top: 37vh;
-    left: 6vw;
-    border-radius: 20px;
-    height: 6vh;
-    width: 45%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-.servicos{
-    margin-top: 54px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: lightgray;
-    height: 18vh;
-    min-height: 18vh;
-    flex-shrink: 0;
-    font-weight: bold;
-}
-.entrega{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    font-size: 16px;
-    width: 29vw;
-}
-.caminhao{
-
-}
-.qualidade{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 29vw;
-    gap: 5px;
-}
-.escudo{
-
-}
-.text{
-    text-align: center;
-    font-size: 14px;
-}
-.compra{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-    width: 29vw;
-}
-.cartao{
-    margin-top: 10px;
-}
-.textt{
-    text-align: center;
-    font-size: 15px;
-}
-
-.sobre_nos{
-    font-size: 18px;
-    text-indent: 35px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.sobrea{
-    position: relative;
-    right: 69px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 50px;
-
-}
-.sobrea::before{
-    position: relative;
-    left: 28px;
-    content: "";
-    display: inline-block;
-    width: 22px;
-    height: 2px;
-    background-color: #E6C5AA;
-}
-
-.imagem2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
-    width: 100%;
-}
-.camisetas{
-    height: 25vh;
-    width: 75vw;
-}
-
-.pe{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.acessar_sistema{
-    margin-top: 12px;
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: black;
-    height: 8vh;
-    width: 75%;
-    border-radius: 25px;
-}
-.acessar{
-    position: relative;
-    right: 17px;
-    font-size: 16px;
-    width: 55vw;
-}
-.pc{
-    position: relative;
-    left: 9px;
-}
-
-.rodape{
-    border-top: 2px solid #E6C5AA;
-    height: 25vh;
-    min-height: 25vh;
-    flex-shrink: 0;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    color: white;
-    gap: 5vh;
-}
-.text_final{
-    display: flex;
-    margin-top: 20px;
-    font-size: 50px;
-    font-weight: bold;
-}
-
-.fim{
-    display: flex;
-    gap: 12px;
-}
-.insta{
-    height: 25px;
-}
-.in{
-    height: 27px;
-}
-.twit{
-    height: 25px;
-}
-
-.imagem2{
-    display: none;
-}
 .menuu{
     display: none;
 }
-.texto2{
-    display: none;
+
+.cabecalho{
+    width: 100%;
+    height: 8vh;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
 }
-.seta{
+.nome{
+    display: flex;
+    color: white;
+    margin-left: 3vw;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-img-mbl{
+    width: 100%;
     position: relative;
-    right: 0.2vw;
-    top: 0.4vh;
-    width: 35px;
+    top: 8vh;
 }
-.receba_pedidos{
-    display: none;
+.texto-header-mbl{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 90%;
+    height: 8vh;
+    color: white;
+    font-size: 18px;
+    line-height: 0.8;
 }
-.produtos_selecionados{
-    display: none;
+.header-conheca{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E6C5AA;
+    margin-top: 12vh;
+    height: 40px;
+    width: 50vw;
+    min-height: 40px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
 }
-.suas_informacoes{
-    display: none;
-}
-.text3{
-    display: none ;
-}
-
-@media screen and (min-width: 768px) {
-    
-    .menu{
-        display: none;
-    }
-    .menuu{
-        display: flex;
-        flex-direction: row;
-        gap: 35px;
-        position: relative;
-        right: 12vw;
-        top: 1vh;
-    }
-    .menuu a {
-        position: relative;
-        color: white;
-        text-decoration: none;
-        padding-bottom: 8px;
-        font-size: 20px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .menuu a::after{
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 0;
-        height: 2px;
-        background-color: #E6C5AA;
-        transition: width 0.3s ease;
-    }
-
-    /*quando a essão é selecionada*/
-    body:has(#inicio:target) .menuu a[href="#inicio"]::after,
-    body:has(#sobre:target) .menuu a[href="#sobre"]::after,
-    body:has(#serviços:target) .menuu a[href="#serviços"]::after,
-    body:has(#contato:target) .meunuu a[href="#contato"]::after {
-        width: 100%;
-    }
-
-    .cabecalho{
-        height: 10vh;
-    }
-    .nome{
-        font-size: 55px;
-    }
-    
-    .imagem1{
-        display: none;
-    }
-    .imagem2{
-        display: flex;
-        margin-top: 10vh;
-        height: 100%;
-        width: 100%;
-    }
-
-    .iniiio{
-        height: 45vh;
-    }
-
-    .texto1{
-        font-size: 55px;
-        top: 12vh;
-        left: 8vw;
-    }
-    .texto2{
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 33vh;
-        left: 8.5vw;
-        color: white;
-        font-size: 26px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    .acessar_vest{
-        position: absolute;
-        top: 43vh;
-        left: 8vw;
-        width: 35%;
-        border-radius: 30px;
-        font-size: 22.5px;
-    }
-    .acessar_texto{
-        position: relative;
-        left: 2.5vw;
-    }
-    .seta{
-        position: relative;
-        left: 1vw;
-        top: 0.4vh;
-        width: 80px;
-    }
-
-    .servicos{
-        margin-top: 10vh;
-        justify-content: center;
-        align-items: center;
-    }
-    .entrega{
-        gap: 3px;
-    }
-
-    .caminhao{
-        height: 40px;
-    }
-    .entrega_local{
-        display: flex;
-        flex-direction: row;
-        gap: 6px;
-        font-size: 25px;
-        font-weight: bold;
-    }
-    .receba_pedidos{
-        font-size: 20px;
-        display: flex;
-        flex-direction: column;
-        font-weight: normal;
-    }
-
-    .qualidade{
-        gap: 5px;
-        border-right: 2px solid black;
-        border-left: 2px solid black;
-        width: 40vw;
-    }
-
-    .text{
-        display: flex;
-        flex-direction: row;
-        gap: 6px;
-        font-size: 25px;
-    }
-    .produtos_selecionados{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-weight: normal;
-        font-size: 21px;
-    }
-
-    .textt{
-        display: flex;
-        flex-direction: row;
-        gap: 6px;
-        font-size: 23px;
-    }
-    .suas_informacoes{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-weight: normal;
-        font-size: 20px;
-    }
-
-    .camisetas{
-        display: none;
-    }
-    .pe{
-        display: none;
-    }
-
+.seta-header{
+    margin-top: 2px;
+    width: 40px;
 }

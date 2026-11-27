@@ -283,6 +283,24 @@ a{
 .texto2{
     display: none;
 }
+.seta{
+    position: relative;
+    right: 0.2vw;
+    top: 0.4vh;
+    width: 35px;
+}
+.receba_pedidos{
+    display: none;
+}
+.produtos_selecionados{
+    display: none;
+}
+.suas_informacoes{
+    display: none;
+}
+.text3{
+    display: none ;
+}
 
 @media screen and (min-width: 768px) {
     
@@ -385,6 +403,67 @@ a{
         justify-content: center;
         align-items: center;
     }
-    
+    .entrega{
+        gap: 3px;
+    }
+
+    .caminhao{
+        height: 40px;
+    }
+    .entrega_local{
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .receba_pedidos{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        font-weight: normal;
+    }
+
+    .qualidade{
+        gap: 5px;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        width: 40vw;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        font-size: 25px;
+    }
+    .produtos_selecionados{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-weight: normal;
+        font-size: 21px;
+    }
+
+    .textt{
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        font-size: 23px;
+    }
+    .suas_informacoes{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-weight: normal;
+        font-size: 20px;
+    }
+
+    .camisetas{
+        display: none;
+    }
+    .pe{
+        display: none;
+    }
 
 }
